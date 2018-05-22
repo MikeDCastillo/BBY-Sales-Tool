@@ -11,18 +11,6 @@
 		73B75E0720A936B300F3F2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E0620A936B300F3F2F2 /* Assets.xcassets */; };
 		73B75E0A20A936B300F3F2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E0820A936B300F3F2F2 /* LaunchScreen.storyboard */; };
 		73B75E1220A9386C00F3F2F2 /* CustomerRecSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E1120A9386C00F3F2F2 /* CustomerRecSheet.swift */; };
-		73B75E1F20A93B5900F3F2F2 /* Home Theater CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1320A93B5800F3F2F2 /* Home Theater CRW.pdf */; };
-		73B75E2020A93B5900F3F2F2 /* Smart Home CRW - SP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1420A93B5900F3F2F2 /* Smart Home CRW - SP.pdf */; };
-		73B75E2120A93B5900F3F2F2 /* Computing CRW - SP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1520A93B5900F3F2F2 /* Computing CRW - SP.pdf */; };
-		73B75E2220A93B5900F3F2F2 /* Gaming CRW - SP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1620A93B5900F3F2F2 /* Gaming CRW - SP.pdf */; };
-		73B75E2320A93B5900F3F2F2 /* Gaming CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1720A93B5900F3F2F2 /* Gaming CRW.pdf */; };
-		73B75E2420A93B5900F3F2F2 /* Appliances CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1820A93B5900F3F2F2 /* Appliances CRW.pdf */; };
-		73B75E2520A93B5900F3F2F2 /* Digital Imaging CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1920A93B5900F3F2F2 /* Digital Imaging CRW.pdf */; };
-		73B75E2620A93B5900F3F2F2 /* Digital Imaging CRW - SP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1A20A93B5900F3F2F2 /* Digital Imaging CRW - SP.pdf */; };
-		73B75E2720A93B5900F3F2F2 /* Computing & Tablet CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1B20A93B5900F3F2F2 /* Computing & Tablet CRW.pdf */; };
-		73B75E2820A93B5900F3F2F2 /* Home Theater CRW - SP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1C20A93B5900F3F2F2 /* Home Theater CRW - SP.pdf */; };
-		73B75E2920A93B5900F3F2F2 /* Connected Car CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1D20A93B5900F3F2F2 /* Connected Car CRW.pdf */; };
-		73B75E2A20A93B5900F3F2F2 /* Smart Home CRW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E1E20A93B5900F3F2F2 /* Smart Home CRW.pdf */; };
 		73B75E3020A9668800F3F2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E2F20A9668800F3F2F2 /* Main.storyboard */; };
 		73B75E3220AC179B00F3F2F2 /* CustomerRecSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3120AC179B00F3F2F2 /* CustomerRecSheetViewController.swift */; };
 		73B75E3520AC1C0300F3F2F2 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3420AC1C0300F3F2F2 /* Employee.swift */; };
@@ -39,6 +27,8 @@
 		73B75E5220AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */; };
 		73B75E5520AEB35200F3F2F2 /* SellingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5420AEB35200F3F2F2 /* SellingTool.swift */; };
 		73B75E5720AEB6DF00F3F2F2 /* CustomerInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */; };
+		73B75E5920B01ACE00F3F2F2 /* JHg4IwY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E5820B01ACE00F3F2F2 /* JHg4IwY.jpg */; };
+		73B75E5B20B2AD5D00F3F2F2 /* UIImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,18 +38,6 @@
 		73B75E0920A936B300F3F2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B75E0B20A936B300F3F2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B75E1120A9386C00F3F2F2 /* CustomerRecSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRecSheet.swift; sourceTree = "<group>"; };
-		73B75E1320A93B5800F3F2F2 /* Home Theater CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Home Theater CRW.pdf"; sourceTree = "<group>"; };
-		73B75E1420A93B5900F3F2F2 /* Smart Home CRW - SP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Smart Home CRW - SP.pdf"; sourceTree = "<group>"; };
-		73B75E1520A93B5900F3F2F2 /* Computing CRW - SP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Computing CRW - SP.pdf"; sourceTree = "<group>"; };
-		73B75E1620A93B5900F3F2F2 /* Gaming CRW - SP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gaming CRW - SP.pdf"; sourceTree = "<group>"; };
-		73B75E1720A93B5900F3F2F2 /* Gaming CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gaming CRW.pdf"; sourceTree = "<group>"; };
-		73B75E1820A93B5900F3F2F2 /* Appliances CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appliances CRW.pdf"; sourceTree = "<group>"; };
-		73B75E1920A93B5900F3F2F2 /* Digital Imaging CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Digital Imaging CRW.pdf"; sourceTree = "<group>"; };
-		73B75E1A20A93B5900F3F2F2 /* Digital Imaging CRW - SP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Digital Imaging CRW - SP.pdf"; sourceTree = "<group>"; };
-		73B75E1B20A93B5900F3F2F2 /* Computing & Tablet CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Computing & Tablet CRW.pdf"; sourceTree = "<group>"; };
-		73B75E1C20A93B5900F3F2F2 /* Home Theater CRW - SP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Home Theater CRW - SP.pdf"; sourceTree = "<group>"; };
-		73B75E1D20A93B5900F3F2F2 /* Connected Car CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Connected Car CRW.pdf"; sourceTree = "<group>"; };
-		73B75E1E20A93B5900F3F2F2 /* Smart Home CRW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Smart Home CRW.pdf"; sourceTree = "<group>"; };
 		73B75E2F20A9668800F3F2F2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		73B75E3120AC179B00F3F2F2 /* CustomerRecSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRecSheetViewController.swift; sourceTree = "<group>"; };
 		73B75E3420AC1C0300F3F2F2 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
@@ -76,6 +54,8 @@
 		73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingToolsCollectionViewController.swift; sourceTree = "<group>"; };
 		73B75E5420AEB35200F3F2F2 /* SellingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingTool.swift; sourceTree = "<group>"; };
 		73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInteraction.swift; sourceTree = "<group>"; };
+		73B75E5820B01ACE00F3F2F2 /* JHg4IwY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JHg4IwY.jpg; sourceTree = "<group>"; };
+		73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,19 +103,8 @@
 		73B75E2B20A93B7100F3F2F2 /* CustomerRecSheets */ = {
 			isa = PBXGroup;
 			children = (
-				73B75E1820A93B5900F3F2F2 /* Appliances CRW.pdf */,
-				73B75E1B20A93B5900F3F2F2 /* Computing & Tablet CRW.pdf */,
-				73B75E1520A93B5900F3F2F2 /* Computing CRW - SP.pdf */,
-				73B75E1D20A93B5900F3F2F2 /* Connected Car CRW.pdf */,
-				73B75E1A20A93B5900F3F2F2 /* Digital Imaging CRW - SP.pdf */,
-				73B75E1920A93B5900F3F2F2 /* Digital Imaging CRW.pdf */,
-				73B75E1620A93B5900F3F2F2 /* Gaming CRW - SP.pdf */,
-				73B75E1720A93B5900F3F2F2 /* Gaming CRW.pdf */,
-				73B75E1C20A93B5900F3F2F2 /* Home Theater CRW - SP.pdf */,
-				73B75E1320A93B5800F3F2F2 /* Home Theater CRW.pdf */,
-				73B75E1420A93B5900F3F2F2 /* Smart Home CRW - SP.pdf */,
-				73B75E1E20A93B5900F3F2F2 /* Smart Home CRW.pdf */,
 				73B75E4A20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg */,
+				73B75E5820B01ACE00F3F2F2 /* JHg4IwY.jpg */,
 			);
 			path = CustomerRecSheets;
 			sourceTree = "<group>";
@@ -173,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				73B75E3120AC179B00F3F2F2 /* CustomerRecSheetViewController.swift */,
-				73B75E5320AEB18D00F3F2F2 /* Setting Tools (WIP) */,
+				73B75E5320AEB18D00F3F2F2 /* Selling Tools (WIP) */,
 				73B75E4620AD5F9000F3F2F2 /* LaunchScreenViewController.swift */,
 				73B75E3820AC284700F3F2F2 /* PencilSelectionCollectionView.swift */,
 				73B75E3620AC276200F3F2F2 /* OptionsViewController.swift */,
@@ -197,16 +166,17 @@
 			children = (
 				73B75E4C20AE489600F3F2F2 /* Keys.swift */,
 				73B75E4F20AE49BA00F3F2F2 /* Protocols.swift */,
+				73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
 		};
-		73B75E5320AEB18D00F3F2F2 /* Setting Tools (WIP) */ = {
+		73B75E5320AEB18D00F3F2F2 /* Selling Tools (WIP) */ = {
 			isa = PBXGroup;
 			children = (
 				73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */,
 			);
-			path = "Setting Tools (WIP)";
+			path = "Selling Tools (WIP)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,22 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B75E2A20A93B5900F3F2F2 /* Smart Home CRW.pdf in Resources */,
-				73B75E2620A93B5900F3F2F2 /* Digital Imaging CRW - SP.pdf in Resources */,
-				73B75E2420A93B5900F3F2F2 /* Appliances CRW.pdf in Resources */,
-				73B75E2720A93B5900F3F2F2 /* Computing & Tablet CRW.pdf in Resources */,
+				73B75E5920B01ACE00F3F2F2 /* JHg4IwY.jpg in Resources */,
 				73B75E0A20A936B300F3F2F2 /* LaunchScreen.storyboard in Resources */,
 				73B75E0720A936B300F3F2F2 /* Assets.xcassets in Resources */,
 				73B75E3020A9668800F3F2F2 /* Main.storyboard in Resources */,
-				73B75E2120A93B5900F3F2F2 /* Computing CRW - SP.pdf in Resources */,
 				73B75E4B20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg in Resources */,
-				73B75E1F20A93B5900F3F2F2 /* Home Theater CRW.pdf in Resources */,
-				73B75E2220A93B5900F3F2F2 /* Gaming CRW - SP.pdf in Resources */,
-				73B75E2920A93B5900F3F2F2 /* Connected Car CRW.pdf in Resources */,
-				73B75E2820A93B5900F3F2F2 /* Home Theater CRW - SP.pdf in Resources */,
-				73B75E2320A93B5900F3F2F2 /* Gaming CRW.pdf in Resources */,
-				73B75E2520A93B5900F3F2F2 /* Digital Imaging CRW.pdf in Resources */,
-				73B75E2020A93B5900F3F2F2 /* Smart Home CRW - SP.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +260,7 @@
 				73B75E3E20AD5E7700F3F2F2 /* NetworkAccessController.swift in Sources */,
 				73B75E4520AD5F1000F3F2F2 /* SafariController.swift in Sources */,
 				73B75E4320AD5EB200F3F2F2 /* ICloudAccessController.swift in Sources */,
+				73B75E5B20B2AD5D00F3F2F2 /* UIImageHelper.swift in Sources */,
 				73B75E3520AC1C0300F3F2F2 /* Employee.swift in Sources */,
 				73B75E3220AC179B00F3F2F2 /* CustomerRecSheetViewController.swift in Sources */,
 				73B75E1220A9386C00F3F2F2 /* CustomerRecSheet.swift in Sources */,
