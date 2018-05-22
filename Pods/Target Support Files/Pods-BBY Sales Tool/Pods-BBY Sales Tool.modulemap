@@ -1,0 +1,6 @@
+framework module Pods_BBY_Sales_Tool {
+  umbrella header "Pods-BBY Sales Tool-umbrella.h"
+
+  export *
+  module * { export * }
+}

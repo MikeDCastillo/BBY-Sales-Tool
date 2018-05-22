@@ -27,11 +27,13 @@
 		73B75E5220AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */; };
 		73B75E5520AEB35200F3F2F2 /* SellingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5420AEB35200F3F2F2 /* SellingTool.swift */; };
 		73B75E5720AEB6DF00F3F2F2 /* CustomerInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */; };
-		73B75E5920B01ACE00F3F2F2 /* JHg4IwY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E5820B01ACE00F3F2F2 /* JHg4IwY.jpg */; };
 		73B75E5B20B2AD5D00F3F2F2 /* UIImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */; };
+		73B75E5D20B4C75900F3F2F2 /* BestBuyAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5C20B4C75900F3F2F2 /* BestBuyAPIController.swift */; };
+		7CF0994963AE71BD0C7082FD /* Pods_BBY_Sales_Tool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A82EA419E72BE70C83DDA0 /* Pods_BBY_Sales_Tool.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A8E879793D6BC1488205088 /* Pods-BBY Sales Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBY Sales Tool.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool.release.xcconfig"; sourceTree = "<group>"; };
 		73B75DFC20A936B100F3F2F2 /* BBY Sales Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBY Sales Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B75DFF20A936B100F3F2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B75E0620A936B300F3F2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,8 +56,10 @@
 		73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingToolsCollectionViewController.swift; sourceTree = "<group>"; };
 		73B75E5420AEB35200F3F2F2 /* SellingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingTool.swift; sourceTree = "<group>"; };
 		73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInteraction.swift; sourceTree = "<group>"; };
-		73B75E5820B01ACE00F3F2F2 /* JHg4IwY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JHg4IwY.jpg; sourceTree = "<group>"; };
 		73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageHelper.swift; sourceTree = "<group>"; };
+		73B75E5C20B4C75900F3F2F2 /* BestBuyAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestBuyAPIController.swift; sourceTree = "<group>"; };
+		81A82EA419E72BE70C83DDA0 /* Pods_BBY_Sales_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBY_Sales_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6F202CBF08C2D67EE891D6 /* Pods-BBY Sales Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBY Sales Tool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF0994963AE71BD0C7082FD /* Pods_BBY_Sales_Tool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +80,8 @@
 				73B75DFE20A936B100F3F2F2 /* BBY Sales Tool */,
 				73B75E2C20A93B8C00F3F2F2 /* Resources */,
 				73B75DFD20A936B100F3F2F2 /* Products */,
+				BE23E8FBB53C950124606236 /* Pods */,
+				8AC617702B10E78FCB3F80BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				73B75E4A20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg */,
-				73B75E5820B01ACE00F3F2F2 /* JHg4IwY.jpg */,
 			);
 			path = CustomerRecSheets;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 				73B75E4020AD5EA300F3F2F2 /* FirebaseController.swift */,
 				73B75E4220AD5EB200F3F2F2 /* ICloudAccessController.swift */,
 				73B75E4420AD5F1000F3F2F2 /* SafariController.swift */,
+				73B75E5C20B4C75900F3F2F2 /* BestBuyAPIController.swift */,
 			);
 			path = "Controllers (WIP)";
 			sourceTree = "<group>";
@@ -179,6 +186,23 @@
 			path = "Selling Tools (WIP)";
 			sourceTree = "<group>";
 		};
+		8AC617702B10E78FCB3F80BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A82EA419E72BE70C83DDA0 /* Pods_BBY_Sales_Tool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE23E8FBB53C950124606236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F202CBF08C2D67EE891D6 /* Pods-BBY Sales Tool.debug.xcconfig */,
+				5A8E879793D6BC1488205088 /* Pods-BBY Sales Tool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73B75E0E20A936B300F3F2F2 /* Build configuration list for PBXNativeTarget "BBY Sales Tool" */;
 			buildPhases = (
+				5C3408E1035A0488AE255508 /* [CP] Check Pods Manifest.lock */,
 				73B75DF820A936B100F3F2F2 /* Sources */,
 				73B75DF920A936B100F3F2F2 /* Frameworks */,
 				73B75DFA20A936B100F3F2F2 /* Resources */,
+				13BE662D907F64582CCD80FD /* [CP] Embed Pods Frameworks */,
+				6C8A56F127DEC9A42447EE5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +264,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B75E5920B01ACE00F3F2F2 /* JHg4IwY.jpg in Resources */,
 				73B75E0A20A936B300F3F2F2 /* LaunchScreen.storyboard in Resources */,
 				73B75E0720A936B300F3F2F2 /* Assets.xcassets in Resources */,
 				73B75E3020A9668800F3F2F2 /* Main.storyboard in Resources */,
@@ -246,6 +272,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BE662D907F64582CCD80FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3408E1035A0488AE255508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBY Sales Tool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8A56F127DEC9A42447EE5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73B75DF820A936B100F3F2F2 /* Sources */ = {
@@ -265,6 +349,7 @@
 				73B75E3220AC179B00F3F2F2 /* CustomerRecSheetViewController.swift in Sources */,
 				73B75E1220A9386C00F3F2F2 /* CustomerRecSheet.swift in Sources */,
 				73B75E5020AE49BA00F3F2F2 /* Protocols.swift in Sources */,
+				73B75E5D20B4C75900F3F2F2 /* BestBuyAPIController.swift in Sources */,
 				73B75E5720AEB6DF00F3F2F2 /* CustomerInteraction.swift in Sources */,
 				73B75E3920AC284700F3F2F2 /* PencilSelectionCollectionView.swift in Sources */,
 				73B75E4720AD5F9000F3F2F2 /* LaunchScreenViewController.swift in Sources */,
@@ -402,15 +487,13 @@
 		};
 		73B75E0F20A936B300F3F2F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6F202CBF08C2D67EE891D6 /* Pods-BBY Sales Tool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
 				INFOPLIST_FILE = "BBY Sales Tool/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeC.BBY-Sales-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -420,15 +503,13 @@
 		};
 		73B75E1020A936B300F3F2F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8E879793D6BC1488205088 /* Pods-BBY Sales Tool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
 				INFOPLIST_FILE = "BBY Sales Tool/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeC.BBY-Sales-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -37,7 +37,7 @@ class CustomerRecSheetViewController: UIViewController {
     fileprivate var highlightingIsEnabled: Bool = false
     fileprivate var whiteOutIsEnabled: Bool = false
     fileprivate var scrollViewMin = 0.0
-    fileprivate var scrolViewMax = 4.0
+    fileprivate var scrollViewMax = 4.0
     
     
     // MARK: - Life Cycle
@@ -49,8 +49,8 @@ class CustomerRecSheetViewController: UIViewController {
         //Set initial Zoom of ScrollView
         scrollView.minimumZoomScale = 1.0
         scrollView.maximumZoomScale = 4.0
-        
     }
+    
     
     // MARK: - IBActions
     
@@ -64,9 +64,8 @@ class CustomerRecSheetViewController: UIViewController {
     }
     @IBAction func zoomSliderValueChanged(_ sender: UISlider) {
         zoomSlider.minimumValue = Float(scrollViewMin)
-        zoomSlider.maximumValue = Float(scrolViewMax)
+        zoomSlider.maximumValue = Float(scrollViewMax)
         scrollView.zoomScale = CGFloat(sender.value)
-    print("\(sender.value)")
     }
     
     
