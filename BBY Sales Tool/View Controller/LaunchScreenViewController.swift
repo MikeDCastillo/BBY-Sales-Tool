@@ -29,7 +29,7 @@ class LaunchScreenViewController: UIViewController {
         setGradientBackgorund()
         animateLogo()
         animateGradientLayer()
-        timeToLeaveSplashScreen(time: 6)
+        timeToLeaveSplashScreen(time: 3.5)
     }
     
     
@@ -59,19 +59,22 @@ class LaunchScreenViewController: UIViewController {
         view.bringSubview(toFront: sloganTextView)
         view.bringSubview(toFront: logoImageView)
         
+        UIView.animate(withDuration: 1.5) {
+            self.logoImageView.alpha = 1.0
+        }
         UIView.animate(withDuration: 3) {
             self.sloganTextView.alpha = 1.0
-            self.logoImageView.alpha = 1.0
         }
     }
 
     fileprivate func animateGradientLayer() {
         let gradientAnimation = CABasicAnimation(keyPath: "colors")
-        gradientAnimation.duration = 4
+        gradientAnimation.duration = 3
         gradientAnimation.toValue = [
-            UIColor(red: 248/255, green: 240/255, blue: 0/255, alpha: 0.3).cgColor,
-            UIColor(red: 11/255, green: 52/255, blue: 240/255, alpha: 0.8).cgColor,
-            UIColor(red: 244/255, green: 223/255, blue: 6/255, alpha: 0.6).cgColor
+            UIColor(red: 11/255, green: 52/255, blue: 240/255, alpha: 1).cgColor, //blue
+            UIColor(red: 248/255, green: 240/255, blue: 0/255, alpha: 1).cgColor,   //yellow
+            UIColor(red: 10/255, green: 35/255, blue: 190/255, alpha: 0.5).cgColor, //blue
+            UIColor(red: 255/255, green: 255/255, blue: 6/255, alpha: 0.1).cgColor, //yellow
             ]
         gradientAnimation.fillMode = kCAFillModeForwards
         gradientAnimation.isRemovedOnCompletion = false
