@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7316822F20B545100047B188 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316822E20B545100047B188 /* DateHelper.swift */; };
+		731A5B9320BFBF9600AC34EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 731A5B9220BFBF9500AC34EA /* GoogleService-Info.plist */; };
 		73B75E0020A936B100F3F2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75DFF20A936B100F3F2F2 /* AppDelegate.swift */; };
 		73B75E0720A936B300F3F2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E0620A936B300F3F2F2 /* Assets.xcassets */; };
 		73B75E0A20A936B300F3F2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E0820A936B300F3F2F2 /* LaunchScreen.storyboard */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		5A8E879793D6BC1488205088 /* Pods-BBY Sales Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBY Sales Tool.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool.release.xcconfig"; sourceTree = "<group>"; };
+		7316822E20B545100047B188 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		731A5B9220BFBF9500AC34EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		73B75DFC20A936B100F3F2F2 /* BBY Sales Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBY Sales Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B75DFF20A936B100F3F2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B75E0620A936B300F3F2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			children = (
 				73B75DFF20A936B100F3F2F2 /* AppDelegate.swift */,
 				73B75E0B20A936B300F3F2F2 /* Info.plist */,
+				731A5B9220BFBF9500AC34EA /* GoogleService-Info.plist */,
 				73B75E2E20A95C1E00F3F2F2 /* Model */,
 				73B75E2D20A95C0C00F3F2F2 /* View */,
 				73B75E3F20AD5E7A00F3F2F2 /* Controllers (WIP) */,
@@ -173,6 +178,7 @@
 			children = (
 				73B75E4C20AE489600F3F2F2 /* Keys.swift */,
 				73B75E4F20AE49BA00F3F2F2 /* Protocols.swift */,
+				7316822E20B545100047B188 /* DateHelper.swift */,
 				73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */,
 			);
 			path = "Helper Files";
@@ -266,6 +272,7 @@
 			files = (
 				73B75E0A20A936B300F3F2F2 /* LaunchScreen.storyboard in Resources */,
 				73B75E0720A936B300F3F2F2 /* Assets.xcassets in Resources */,
+				731A5B9320BFBF9600AC34EA /* GoogleService-Info.plist in Resources */,
 				73B75E3020A9668800F3F2F2 /* Main.storyboard in Resources */,
 				73B75E4B20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg in Resources */,
 			);
@@ -345,6 +352,7 @@
 				73B75E4520AD5F1000F3F2F2 /* SafariController.swift in Sources */,
 				73B75E4320AD5EB200F3F2F2 /* ICloudAccessController.swift in Sources */,
 				73B75E5B20B2AD5D00F3F2F2 /* UIImageHelper.swift in Sources */,
+				7316822F20B545100047B188 /* DateHelper.swift in Sources */,
 				73B75E3520AC1C0300F3F2F2 /* Employee.swift in Sources */,
 				73B75E3220AC179B00F3F2F2 /* CustomerRecSheetViewController.swift in Sources */,
 				73B75E1220A9386C00F3F2F2 /* CustomerRecSheet.swift in Sources */,
@@ -493,7 +501,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
 				INFOPLIST_FILE = "BBY Sales Tool/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeC.BBY-Sales-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -509,7 +520,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UKSSV9PZ8;
 				INFOPLIST_FILE = "BBY Sales Tool/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeC.BBY-Sales-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -6,6 +6,7 @@
 //  Copyright © 2018 Michael Castillo. All rights reserved.
 //
 //https://bestbuyapis.github.io/api-documentation/#overview
+//http://bestbuyapis.github.io/bby-query-builder/#/productSearch
 
 import Foundation
 

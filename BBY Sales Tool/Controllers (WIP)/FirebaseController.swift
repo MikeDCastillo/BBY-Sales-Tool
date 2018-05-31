@@ -6,4 +6,12 @@
 //  Copyright © 2018 Michael Castillo. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import Firebase
+
+struct FirebaseController {
+    
+    static let shared = FirebaseController()
+    
+//    var ref
+}

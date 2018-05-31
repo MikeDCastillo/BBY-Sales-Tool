@@ -7,3 +7,27 @@
 //
 
 import Foundation
+
+
+// MARK: - JSON Helpers
+
+
+typealias JSONData = [String: Any]
+
+protocol JsonInitializable {
+    init(json: JSONData) throws
+}
+
+protocol JsonExportable {
+    func json() -> JSONData
+}
+
+enum JsonErrorType: Error {
+    case keyMismatch(String)
+    case typeMismatch(String)
+}
+
+protocol StringToDateStampable {
+    var isoDate: String { get set }
+    
+}

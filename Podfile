@@ -8,6 +8,6 @@ target 'BBY Sales Tool' do
   # Pods for BBY Sales Tool
 
 pod 'Alamofire', '~> 4.7'
-pod 'Firebase'
+pod 'Firebase/Core'
 
 end
