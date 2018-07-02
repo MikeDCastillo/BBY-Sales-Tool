@@ -38,7 +38,11 @@ class ToolsViewController: UIViewController, CollectionViewDelegateSlantedLayout
         self.navigationController?.isNavigationBarHidden = true
         slantedCollectionView.dataSource = self
         slantedCollectionView.delegate = self
-        print(sellingTools)
+        
+        /// Sets the scroll direction of collection view
+        if let slantedLayout = slantedCollectionView.collectionViewLayout as? CollectionViewSlantedLayout {
+            slantedLayout.scrollDirection = .horizontal
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -66,13 +70,20 @@ class ToolsViewController: UIViewController, CollectionViewDelegateSlantedLayout
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard let collectionView = self.slantedCollectionView else {return}
-        guard let visibleCells = collectionView.visibleCells as? [SellingToolsCustomCollectionCell] else {return}
+        guard let visibleCells = collectionView.visibleCells as? [ToolCollectionCell] else
+        { return }
+        
+        let yOffsetSpeed: CGFloat = 60.0
+        let xOffsetSpeed: CGFloat = 00.0
+
         for parallaxCell in visibleCells {
-            let yOffset = ((collectionView.contentOffset.y - parallaxCell.frame.origin.y) / parallaxCell.imageHeight) * yOffsetSpeed
-            let xOffset = ((collectionView.contentOffset.x - parallaxCell.frame.origin.x) / parallaxCell.imageWidth) * xOffsetSpeed
+            let imageSize = parallaxCell.imageView.frame.size
+            let yOffset = ((collectionView.contentOffset.y - parallaxCell.frame.origin.y) / imageSize.height) * yOffsetSpeed
+            let xOffset = ((collectionView.contentOffset.x - parallaxCell.frame.origin.x) / imageSize.width) * xOffsetSpeed
             parallaxCell.offset(CGPoint(x: xOffset,y :yOffset))
         }
     }
+    
     
     // MARK: UICollectionViewDelegate
 
@@ -123,15 +134,9 @@ extension ToolsViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SellingToolsCustomCollectionCell.name, for: indexPath) as? SellingToolsCustomCollectionCell else {
-            UIAlertController.shared.presentAlertControllerForError(on: self, title: "So much error found", msg: "Come back later")
-            return UICollectionViewCell()
-        }
-        
-        if let cellImage = sellingTools[indexPath.row].cellImage {
-            cell.image = cellImage
-        }
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ToolCollectionCell.name, for: indexPath) as! ToolCollectionCell
+        cell.image = sellingTools[indexPath.row].cellImage
+        cell.cellLabel.text = sellingTools[indexPath.row].description
         
         if let layout = slantedCollectionView.collectionViewLayout as? CollectionViewSlantedLayout {
             cell.contentView.transform = CGAffineTransform(rotationAngle: layout.slantingAngle)

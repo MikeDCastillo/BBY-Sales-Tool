@@ -10,31 +10,28 @@ import UIKit
 import Alamofire
 
 struct NetworkAccessController {
-    
-    enum Endpoint: String {
-        case firebase = "firebase.com"
-        case bestbuy = "bestbuy.com"
-        
-        init?(index: Int) {
-            switch index {
-            case 0: self = .firebase
-            case 1: self = .bestbuy
-            default: return nil
-            }
-        }
+  
+   public enum DataType {
+    case product(product: Product)
     }
     
-    var website: String {
-        return Endpoint.init(rawValue: "")!.rawValue
+   public enum NetworkError {
+        case urlCreation(string: String)
     }
     
     static let shared = NetworkAccessController()
-        // TODO: - FIXME!!!!
-        let urlString = URL(string: Endpoint(index: 1)!.rawValue)
     
-    func getData (completion: (Data?) ) -> Void {
+//    func createURL(with parameters: [String: String]?, from url: URL) -> URL {
+//        var components = URLComponents(url: url, resolvingAgainstBaseURL: true)
+//        components?.queryItems = parameters?.compactMap({ URLQueryItem(name: $0.0, value: $0.1) })
+//        guard let url = components?.url else {
+//            print("\(NetworkError.urlCreation(string: "\(#file, #line)"))")
+//        }
+//        return url
+//    }
         
-        Alamofire.request("https://" + "\(String(describing: urlString))").responseJSON { response in
+    func getData (url: URL, completion: (DataType?) ) -> Void {
+        Alamofire.request("\(url)").responseJSON { response in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result
@@ -49,8 +46,8 @@ struct NetworkAccessController {
         }
     }
     
-    func downloadRequest(view: UIView, completion: @escaping (CAAnimation?) -> Void) {
-        Alamofire.download("\(String(describing: urlString))").downloadProgress { progress in
+    func downloadRequest(view: UIView, urlString: URL, completion: @escaping (CAAnimation?) -> Void) {
+        Alamofire.download("\(urlString)").downloadProgress { progress in
             print("Download Progress: \(progress.fractionCompleted)")
         }
             .responseData { response in

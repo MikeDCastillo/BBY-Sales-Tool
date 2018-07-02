@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		7316822F20B545100047B188 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316822E20B545100047B188 /* DateHelper.swift */; };
 		731A5B9320BFBF9600AC34EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 731A5B9220BFBF9500AC34EA /* GoogleService-Info.plist */; };
+		731A5B9520C0B2DF00AC34EA /* ErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5B9420C0B2DF00AC34EA /* ErrorController.swift */; };
+		731A5B9720C0E7C900AC34EA /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5B9620C0E7C900AC34EA /* CoreDataController.swift */; };
+		731A5B9C20C105CE00AC34EA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5B9B20C105CE00AC34EA /* CoreDataStack.swift */; };
+		731A5BA420C2581E00AC34EA /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3420AC1C0300F3F2F2 /* Employee.swift */; };
+		731A5BA620CB901700AC34EA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5BA520CB901700AC34EA /* Product.swift */; };
+		731A5BA820D8E11100AC34EA /* ToolCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5BA720D8E11100AC34EA /* ToolCollectionCell.swift */; };
+		731A5BAA20DA187600AC34EA /* SellingToolsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5BA920DA187600AC34EA /* SellingToolsController.swift */; };
+		731A5BAC20DC65B900AC34EA /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5BAB20DC65B900AC34EA /* AlertHelper.swift */; };
+		731A5BAE20DCC04F00AC34EA /* SellingToolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A5BAD20DCC04F00AC34EA /* SellingToolDetailViewController.swift */; };
 		73B75E0020A936B100F3F2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75DFF20A936B100F3F2F2 /* AppDelegate.swift */; };
 		73B75E0720A936B300F3F2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E0620A936B300F3F2F2 /* Assets.xcassets */; };
 		73B75E0A20A936B300F3F2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E0820A936B300F3F2F2 /* LaunchScreen.storyboard */; };
 		73B75E1220A9386C00F3F2F2 /* CustomerRecSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E1120A9386C00F3F2F2 /* CustomerRecSheet.swift */; };
 		73B75E3020A9668800F3F2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E2F20A9668800F3F2F2 /* Main.storyboard */; };
 		73B75E3220AC179B00F3F2F2 /* CustomerRecSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3120AC179B00F3F2F2 /* CustomerRecSheetViewController.swift */; };
-		73B75E3520AC1C0300F3F2F2 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3420AC1C0300F3F2F2 /* Employee.swift */; };
 		73B75E3720AC276200F3F2F2 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3620AC276200F3F2F2 /* OptionsViewController.swift */; };
 		73B75E3920AC284700F3F2F2 /* PencilSelectionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3820AC284700F3F2F2 /* PencilSelectionCollectionView.swift */; };
 		73B75E3E20AD5E7700F3F2F2 /* NetworkAccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E3D20AD5E7700F3F2F2 /* NetworkAccessController.swift */; };
@@ -26,7 +34,7 @@
 		73B75E4B20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73B75E4A20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg */; };
 		73B75E4D20AE489600F3F2F2 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E4C20AE489600F3F2F2 /* Keys.swift */; };
 		73B75E5020AE49BA00F3F2F2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E4F20AE49BA00F3F2F2 /* Protocols.swift */; };
-		73B75E5220AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */; };
+		73B75E5220AEB18900F3F2F2 /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5120AEB18900F3F2F2 /* ToolsViewController.swift */; };
 		73B75E5520AEB35200F3F2F2 /* SellingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5420AEB35200F3F2F2 /* SellingTool.swift */; };
 		73B75E5720AEB6DF00F3F2F2 /* CustomerInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */; };
 		73B75E5B20B2AD5D00F3F2F2 /* UIImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */; };
@@ -38,6 +46,15 @@
 		5A8E879793D6BC1488205088 /* Pods-BBY Sales Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBY Sales Tool.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool.release.xcconfig"; sourceTree = "<group>"; };
 		7316822E20B545100047B188 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		731A5B9220BFBF9500AC34EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		731A5B9420C0B2DF00AC34EA /* ErrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorController.swift; sourceTree = "<group>"; };
+		731A5B9620C0E7C900AC34EA /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		731A5B9B20C105CE00AC34EA /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		731A5B9F20C2546800AC34EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		731A5BA520CB901700AC34EA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		731A5BA720D8E11100AC34EA /* ToolCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCollectionCell.swift; sourceTree = "<group>"; };
+		731A5BA920DA187600AC34EA /* SellingToolsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingToolsController.swift; sourceTree = "<group>"; };
+		731A5BAB20DC65B900AC34EA /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		731A5BAD20DCC04F00AC34EA /* SellingToolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingToolDetailViewController.swift; sourceTree = "<group>"; };
 		73B75DFC20A936B100F3F2F2 /* BBY Sales Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBY Sales Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B75DFF20A936B100F3F2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B75E0620A936B300F3F2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +74,7 @@
 		73B75E4A20AD7F6800F3F2F2 /* 2018_rebrand_blog_logo_LEAD_ART.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2018_rebrand_blog_logo_LEAD_ART.jpg; sourceTree = "<group>"; };
 		73B75E4C20AE489600F3F2F2 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		73B75E4F20AE49BA00F3F2F2 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingToolsCollectionViewController.swift; sourceTree = "<group>"; };
+		73B75E5120AEB18900F3F2F2 /* ToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
 		73B75E5420AEB35200F3F2F2 /* SellingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellingTool.swift; sourceTree = "<group>"; };
 		73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInteraction.swift; sourceTree = "<group>"; };
 		73B75E5A20B2AD5D00F3F2F2 /* UIImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageHelper.swift; sourceTree = "<group>"; };
@@ -78,6 +95,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731A5B9D20C105D500AC34EA /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				731A5B9B20C105CE00AC34EA /* CoreDataStack.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		731A5B9E20C109C100AC34EA /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				731A5B9D20C105D500AC34EA /* Core Data */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
 		73B75DF320A936B100F3F2F2 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +140,7 @@
 				73B75E2D20A95C0C00F3F2F2 /* View */,
 				73B75E3F20AD5E7A00F3F2F2 /* Controllers (WIP) */,
 				73B75E3320AC17A500F3F2F2 /* View Controller */,
+				731A5B9E20C109C100AC34EA /* Infrastructure */,
 				73B75E4E20AE489D00F3F2F2 /* Helper Files */,
 			);
 			path = "BBY Sales Tool";
@@ -142,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				73B75E1120A9386C00F3F2F2 /* CustomerRecSheet.swift */,
+				731A5BA520CB901700AC34EA /* Product.swift */,
 				73B75E3420AC1C0300F3F2F2 /* Employee.swift */,
 				73B75E5420AEB35200F3F2F2 /* SellingTool.swift */,
 				73B75E5620AEB6DF00F3F2F2 /* CustomerInteraction.swift */,
@@ -152,11 +187,11 @@
 		73B75E3320AC17A500F3F2F2 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				73B75E3120AC179B00F3F2F2 /* CustomerRecSheetViewController.swift */,
-				73B75E5320AEB18D00F3F2F2 /* Selling Tools (WIP) */,
 				73B75E4620AD5F9000F3F2F2 /* LaunchScreenViewController.swift */,
+				73B75E3120AC179B00F3F2F2 /* CustomerRecSheetViewController.swift */,
 				73B75E3820AC284700F3F2F2 /* PencilSelectionCollectionView.swift */,
 				73B75E3620AC276200F3F2F2 /* OptionsViewController.swift */,
+				73B75E5320AEB18D00F3F2F2 /* Selling Tools (WIP) */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -165,9 +200,12 @@
 			isa = PBXGroup;
 			children = (
 				73B75E3D20AD5E7700F3F2F2 /* NetworkAccessController.swift */,
+				731A5B9420C0B2DF00AC34EA /* ErrorController.swift */,
 				73B75E4020AD5EA300F3F2F2 /* FirebaseController.swift */,
+				731A5B9620C0E7C900AC34EA /* CoreDataController.swift */,
 				73B75E4220AD5EB200F3F2F2 /* ICloudAccessController.swift */,
 				73B75E4420AD5F1000F3F2F2 /* SafariController.swift */,
+				731A5BA920DA187600AC34EA /* SellingToolsController.swift */,
 				73B75E5C20B4C75900F3F2F2 /* BestBuyAPIController.swift */,
 			);
 			path = "Controllers (WIP)";
@@ -176,6 +214,7 @@
 		73B75E4E20AE489D00F3F2F2 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
+				731A5BAB20DC65B900AC34EA /* AlertHelper.swift */,
 				73B75E4C20AE489600F3F2F2 /* Keys.swift */,
 				73B75E4F20AE49BA00F3F2F2 /* Protocols.swift */,
 				7316822E20B545100047B188 /* DateHelper.swift */,
@@ -187,7 +226,9 @@
 		73B75E5320AEB18D00F3F2F2 /* Selling Tools (WIP) */ = {
 			isa = PBXGroup;
 			children = (
-				73B75E5120AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift */,
+				73B75E5120AEB18900F3F2F2 /* ToolsViewController.swift */,
+				731A5BAD20DCC04F00AC34EA /* SellingToolDetailViewController.swift */,
+				731A5BA720D8E11100AC34EA /* ToolCollectionCell.swift */,
 			);
 			path = "Selling Tools (WIP)";
 			sourceTree = "<group>";
@@ -195,6 +236,7 @@
 		8AC617702B10E78FCB3F80BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				731A5B9F20C2546800AC34EA /* CoreData.framework */,
 				81A82EA419E72BE70C83DDA0 /* Pods_BBY_Sales_Tool.framework */,
 			);
 			name = Frameworks;
@@ -289,13 +331,17 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BBY Sales Tool/Pods-BBY Sales Tool-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CollectionViewSlantedLayout/CollectionViewSlantedLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionViewSlantedLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,22 +389,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731A5BAC20DC65B900AC34EA /* AlertHelper.swift in Sources */,
 				73B75E4120AD5EA300F3F2F2 /* FirebaseController.swift in Sources */,
 				73B75E4D20AE489600F3F2F2 /* Keys.swift in Sources */,
-				73B75E5220AEB18900F3F2F2 /* SellingToolsCollectionViewController.swift in Sources */,
+				73B75E5220AEB18900F3F2F2 /* ToolsViewController.swift in Sources */,
 				73B75E5520AEB35200F3F2F2 /* SellingTool.swift in Sources */,
 				73B75E0020A936B100F3F2F2 /* AppDelegate.swift in Sources */,
+				731A5B9520C0B2DF00AC34EA /* ErrorController.swift in Sources */,
+				731A5B9C20C105CE00AC34EA /* CoreDataStack.swift in Sources */,
+				731A5BAA20DA187600AC34EA /* SellingToolsController.swift in Sources */,
 				73B75E3E20AD5E7700F3F2F2 /* NetworkAccessController.swift in Sources */,
 				73B75E4520AD5F1000F3F2F2 /* SafariController.swift in Sources */,
 				73B75E4320AD5EB200F3F2F2 /* ICloudAccessController.swift in Sources */,
 				73B75E5B20B2AD5D00F3F2F2 /* UIImageHelper.swift in Sources */,
 				7316822F20B545100047B188 /* DateHelper.swift in Sources */,
-				73B75E3520AC1C0300F3F2F2 /* Employee.swift in Sources */,
+				731A5BAE20DCC04F00AC34EA /* SellingToolDetailViewController.swift in Sources */,
+				731A5BA620CB901700AC34EA /* Product.swift in Sources */,
+				731A5BA820D8E11100AC34EA /* ToolCollectionCell.swift in Sources */,
 				73B75E3220AC179B00F3F2F2 /* CustomerRecSheetViewController.swift in Sources */,
 				73B75E1220A9386C00F3F2F2 /* CustomerRecSheet.swift in Sources */,
+				731A5BA420C2581E00AC34EA /* Employee.swift in Sources */,
 				73B75E5020AE49BA00F3F2F2 /* Protocols.swift in Sources */,
 				73B75E5D20B4C75900F3F2F2 /* BestBuyAPIController.swift in Sources */,
 				73B75E5720AEB6DF00F3F2F2 /* CustomerInteraction.swift in Sources */,
+				731A5B9720C0E7C900AC34EA /* CoreDataController.swift in Sources */,
 				73B75E3920AC284700F3F2F2 /* PencilSelectionCollectionView.swift in Sources */,
 				73B75E4720AD5F9000F3F2F2 /* LaunchScreenViewController.swift in Sources */,
 				73B75E3720AC276200F3F2F2 /* OptionsViewController.swift in Sources */,

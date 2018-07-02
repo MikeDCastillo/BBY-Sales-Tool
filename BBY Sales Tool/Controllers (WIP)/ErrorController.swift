@@ -6,4 +6,9 @@
 //  Copyright © 2018 Michael Castillo. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct ErrorController {
+    
+    var errors = [Error]()
+}

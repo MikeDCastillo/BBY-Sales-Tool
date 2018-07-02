@@ -31,3 +31,10 @@ protocol StringToDateStampable {
     var isoDate: String { get set }
     
 }
+
+protocol Nameable {}
+extension Nameable {
+    static var name: String {
+        return String(describing: Self.self)
+    }
+}

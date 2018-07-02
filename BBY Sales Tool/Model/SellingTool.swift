@@ -17,3 +17,17 @@ struct SellingTool {
 }
 
         // TODO: - Save / Load to Core Data
+
+/*
+ 
+ 1. Geek Squad
+ 2. TTS
+ 3. BP
+    - monthly calculator
+ 4. Apple
+    - deductibles
+    - Model numbers
+ 5. Contact Dev
+ 6. Product Search
+ *Bonus* Customize you own tab - allow user to create a document or handwriting 
+ */

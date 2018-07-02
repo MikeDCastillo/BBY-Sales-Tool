@@ -6,12 +6,14 @@
 //  Copyright © 2018 Michael Castillo. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CoreData
 
 enum CoreDataStack {
     
-    static var context: NSManagedObjectContext { return container.viewContext }
+    static var context: NSManagedObjectContext {
+        return container.viewContext
+    }
     static let container: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "BBY Sales Tool")
         container.loadPersistentStores(completionHandler: {(NSPersistentStoreDescription, error) in

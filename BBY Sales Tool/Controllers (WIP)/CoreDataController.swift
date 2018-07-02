@@ -6,4 +6,21 @@
 //  Copyright © 2018 Michael Castillo. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct CoreDataController {
+    
+    func saveContext() {
+        var context = CoreDataStack.context
+        
+        if context.hasChanges {
+            do {
+                try context.save()
+            } catch{
+                let error = error as Error
+                print(String(describing: "\(error)"))
+            }
+        }
+    }
+    
+}

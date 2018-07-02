@@ -9,5 +9,7 @@ target 'BBY Sales Tool' do
 
 pod 'Alamofire', '~> 4.7'
 pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'CollectionViewSlantedLayout', '~> 3.0'
 
 end

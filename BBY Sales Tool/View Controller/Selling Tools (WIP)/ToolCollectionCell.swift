@@ -1,21 +1,15 @@
 //
-//  File.swift
+//  ToolCollectionCell.swift
 //  BBY Sales Tool
 //
 //  Created by Michael Castillo on 6/19/18.
 //  Copyright © 2018 Michael Castillo. All rights reserved.
 //
 
-import CollectionViewSlantedLayout
 import UIKit
+import CollectionViewSlantedLayout
 
-
-let yOffsetSpeed: CGFloat = 150.0
-let xOffsetSpeed: CGFloat = 100.0
-
-
-        // TODO: - rename this. get rid of custom
-class ToolsCollectionCell: CollectionViewSlantedCell, Nameable {
+class ToolCollectionCell: CollectionViewSlantedCell, Nameable {
     
     @IBOutlet weak var cellLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
@@ -43,21 +37,11 @@ class ToolsCollectionCell: CollectionViewSlantedCell, Nameable {
         }
     }
     
-    var image: UIImage = UIImage() {
+    var image: UIImage? {
         didSet {
             imageView.image = image
-//            updateCellDetails()
         }
     }
-    
-    var imageHeight: CGFloat {
-        return (imageView?.image?.size.height) ?? 0.0
-    }
-    
-    var imageWidth: CGFloat {
-        return (imageView?.image?.size.width) ?? 0.0
-    }
-    
     
     func offset(_ offset: CGPoint) {
         imageView.frame = self.imageView.bounds.offsetBy(dx: offset.x, dy: offset.y)

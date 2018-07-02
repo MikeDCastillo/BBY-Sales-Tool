@@ -10,6 +10,7 @@
             // indicator + textfield
 
 import UIKit
+import Alamofire
 
 class LaunchScreenViewController: UIViewController {
 
@@ -40,9 +41,9 @@ class LaunchScreenViewController: UIViewController {
     }
     
    fileprivate func timeToLeaveSplashScreen(time: Double) {
-        let timer = Timer.scheduledTimer(timeInterval: time, target: self, selector: #selector(transitionToRecSheetView), userInfo: nil, repeats: false)
+    let timer = Timer.scheduledTimer(timeInterval: time, target: self, selector: #selector(transitionToRecSheetView), userInfo: nil, repeats: false)
     }
-
+    
     fileprivate func setGradientBackgorund() {
         gradientLayer.frame.size = self.view.frame.size
         gradientLayer.colors = [UIColor.yellow.cgColor, UIColor.blue.withAlphaComponent(1).cgColor]
